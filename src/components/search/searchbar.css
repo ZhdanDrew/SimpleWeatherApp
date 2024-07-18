@@ -1,0 +1,47 @@
+/* searchbar.css */
+
+/* Container styles */
+.search-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Input field styles */
+  .search-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Placeholder text styles */
+  .search-input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Dropdown styles */
+  .search-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Option styles */
+  .search-option {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .search-option:hover {
+    background-color: #f0f0f0;
+  }
+  
